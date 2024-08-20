@@ -6,6 +6,7 @@ import { About } from "./Screens/About/About";
 import { Contact } from "./Screens/Contact/contact";
 import { Training } from "./Screens/Training/Training";
 import { Projects } from "./Screens/Projects/Projects";
+import { Skills } from "./Screens/Skills/Skills";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* habilidades */}
       <section id="skills" className="flex flex-col justify-center items-center min-h-screen bg-gray-900 text-white text-center px-4">
 
-        <h1 className="text-white text-4xl">Skills</h1>
+        <h1 className="text-white text-4xl">Habilidades</h1>
+        <Skills/>
       </section>
 
       {/* estudios */}
