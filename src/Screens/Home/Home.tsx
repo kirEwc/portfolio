@@ -2,8 +2,8 @@ export const Home = () => {
     return (
       <div className="flex flex-col md:flex-row justify-center items-center min-h-screen bg-gray-900 text-white p-8">
         <div className="contenido md:w-1/2 lg:w-2/3">
-          <h3 className="text-lg md:text-xl text-gray-400 mb-2">Hi, soy</h3>
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+          <h3 className="text-lg md:text-xl text-gray-400 mb-2">Hola, soy</h3>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 animate-pulse">
             Aldair Guerra
           </h1>
           <h3 className="text-xl md:text-2xl text-gray-300 mb-6">
