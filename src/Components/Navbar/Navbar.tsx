@@ -19,32 +19,32 @@ const Navbar = () => {
         <div className="space-x-4 flex items-center">
           <a href="#home" className="relative text-gray-300 hover:text-white inline-flex items-center group">
             <HomeIcon className="h-5 w-5 mr-1" />
-            Home
+            Inicio
             <span className="absolute left-0 bottom-0 block w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
           </a>
           <a href="#about-me" className="relative text-gray-300 hover:text-white inline-flex items-center group">
             <UserIcon className="h-5 w-5 mr-1" />
-            About Me
+            Sobre mi
             <span className="absolute left-0 bottom-0 block w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
           </a>
           <a href="#skills" className="relative text-gray-300 hover:text-white inline-flex items-center group">
             <ChartBarIcon className="h-5 w-5 mr-1" />
-            Skills
+            Habilidades
             <span className="absolute left-0 bottom-0 block w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
           </a>
           <a href="#training" className="relative text-gray-300 hover:text-white inline-flex items-center group">
             <AcademicCapIcon className="h-5 w-5 mr-1" />
-            Training
+            Formacion
             <span className="absolute left-0 bottom-0 block w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
           </a>
           <a href="#projects" className="relative text-gray-300 hover:text-white inline-flex items-center group">
             <BriefcaseIcon className="h-5 w-5 mr-1" />
-            Projects
+            Proyectos
             <span className="absolute left-0 bottom-0 block w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
           </a>
           <a href="#contact" className="relative text-gray-300 hover:text-white inline-flex items-center group">
             <EnvelopeIcon className="h-5 w-5 mr-1" />
-            Contact
+            Contacto
             <span className="absolute left-0 bottom-0 block w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
           </a>
         </div>
