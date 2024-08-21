@@ -4,6 +4,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-500 bg-opacity-50 fixed top-0 left-0 w-full z-10 backdrop-blur-sm">
       <div className="container mx-auto p-4 flex justify-between items-center">
+      <a href="https://github.com/kirEwc/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
       <div className="flex items-center text-white text-xl font-bold group">
           <img
             src="/assets/Navbar/code-off.svg"
@@ -11,9 +12,10 @@ const Navbar = () => {
             className="h-8 w-8 mr-2 transition-transform duration-300 ease-in-out group-hover:rotate-12 group-hover:scale-110"
           />
           <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent transition-transform duration-300 ease-in-out group-hover:translate-x-1">
-            kirito dev
+            {`aldadev `}
           </span>
         </div>
+        </a>
         <div className="space-x-4 flex items-center">
           <a href="#home" className="relative text-gray-300 hover:text-white inline-flex items-center group">
             <HomeIcon className="h-5 w-5 mr-1" />

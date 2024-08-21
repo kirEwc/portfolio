@@ -1,10 +1,10 @@
  export const projects = [
     {
       "id": 1,
-      "imageUrl": "https://via.placeholder.com/300",
-      "title": "Proyecto JavaScript 1",
-      "description": "Este es el primer proyecto de JavaScript, una aplicación de lista de tareas.",
-      "linkUrl": "https://github.com/ejemplo/proyecto1"
+      "imageUrl": "assets/data/portfolio.png",
+      "title": "Portfolio Web",
+      "description": "Este es el sitio donde se muestran mis proyectos en desarrollo web.",
+      "linkUrl": "https://github.com/kirEwc/portfolio"
     },
     {
       "id": 2,

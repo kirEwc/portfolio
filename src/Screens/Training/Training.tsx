@@ -8,7 +8,7 @@ export const Training = () => {
           <img
             src="assets/training/uci.png"
             alt="Aldair Guerra"
-            className="bg-teal-100 rounded-xl shadow-md w-4/5 md:w-full p-3"
+            className="bg-white rounded-xl shadow-md w-4/5 md:w-full p-3"
           />
         </div>
         <div className="md:w-1/2 lg:w-3/5 flex flex-col justify-center items-start">
@@ -16,10 +16,10 @@ export const Training = () => {
             Universidad de las Ciencias Informáticas
           </h3>
           <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-            La Universidad de las Ciencias Informáticas (UCI) es una institución
+            {`La Universidad de las Ciencias Informáticas (UCI) es una institución
             académica de excelencia en el desarrollo de software y tecnologías
             de la información. Su misión es formar profesionales altamente
-            capacitados en el ámbito tecnológico.
+            capacitados en el ámbito tecnológico.`}
           </p>
           <a
             href="https://www.uci.cu"

@@ -1,4 +1,3 @@
-import React from "react";
 
 export const Skills = () => {
   const skills = [
@@ -11,6 +10,9 @@ export const Skills = () => {
   ];
 
   return (
+    <>
+        <h1 className="text-3xl font-semibold text-gray-200 mb-4">Habilidades</h1>
+
     <div className="flex flex-wrap justify-between gap-6 p-8 w-full rounded-lg shadow-xl">
       {skills.map((skill, index) => (
         
@@ -19,12 +21,13 @@ export const Skills = () => {
             src={skill.src}
             alt={skill.alt}
             className="w-24 h-24 transition-transform duration-300 ease-in-out transform hover:scale-110 group-hover:shadow-2xl rounded-full bg-white p-4"
-          />
+            />
           <span className="mt-2 text-sm text-gray-700 group-hover:text-white font-semibold">
             {skill.alt}
           </span>
         </div>
-      ))}
-    </div>
+        ))}
+        </div>
+        </>
   );
 };
