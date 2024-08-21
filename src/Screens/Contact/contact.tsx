@@ -21,18 +21,30 @@ export const Contact = () => {
       </div>
 
       {/* Enlaces a redes sociales a la derecha */}
-      <div className="">
-        <h2>Contacto</h2>
+      <div >
+        <h2 className="font-semibold text-white mb-10">Contacto</h2>
         <h3>E-mail de contacto</h3>
         <span>alelguce@gmail</span>
+        <h3 className="mb-20 mt-5"> Ubicación: La Habana, Cuba</h3>
         <h3>Redes Sociales</h3>
+        <div className="flex flex-row mr-4">
+
         <a href="https://github.com/kirEwc" target="_blank">  
           <img
-            src="assets/skills/github.png"
+            src="/assets/skills/github.svg"
             alt="Github"
-            className="w-8 h-8"
-          />
+            className="w-6 h-6 mr-3"
+            />
         </a>
+        <a href="https://github.com/kirEwc" target="_blank">  
+          <img
+            src="/assets/skills/facebook.svg"
+            alt="Github"
+            className="w-6 h-6 mr-3"
+            />
+        </a>
+            </div>
+
       </div>
     </div>
   );
