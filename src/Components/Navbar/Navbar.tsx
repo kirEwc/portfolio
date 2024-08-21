@@ -1,36 +1,49 @@
-import { HomeIcon, UserIcon, AcademicCapIcon, BriefcaseIcon,  ChartBarIcon, EnvelopeIcon } from "@heroicons/react/20/solid";
+import { HomeIcon, UserIcon, AcademicCapIcon, BriefcaseIcon, ChartBarIcon, EnvelopeIcon } from "@heroicons/react/20/solid";
 
 const Navbar = () => {
   return (
     <nav className="bg-gray-500 bg-opacity-50 fixed top-0 left-0 w-full z-10 backdrop-blur-sm">
       <div className="container mx-auto p-4 flex justify-between items-center">
-        <div className="text-white text-xl font-bold">
-          My Portfolio
+      <div className="flex items-center text-white text-xl font-bold group">
+          <img
+            src="/assets/Navbar/code-off.svg"
+            alt="Code Icon"
+            className="h-8 w-8 mr-2 transition-transform duration-300 ease-in-out group-hover:rotate-12 group-hover:scale-110"
+          />
+          <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent transition-transform duration-300 ease-in-out group-hover:translate-x-1">
+            kirito dev
+          </span>
         </div>
         <div className="space-x-4 flex items-center">
-          <a href="#home" className="text-gray-300 hover:text-white inline-flex items-center">
+          <a href="#home" className="relative text-gray-300 hover:text-white inline-flex items-center group">
             <HomeIcon className="h-5 w-5 mr-1" />
             Home
+            <span className="absolute left-0 bottom-0 block w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
           </a>
-          <a href="#about-me" className="text-gray-300 hover:text-white inline-flex items-center">
+          <a href="#about-me" className="relative text-gray-300 hover:text-white inline-flex items-center group">
             <UserIcon className="h-5 w-5 mr-1" />
             About Me
+            <span className="absolute left-0 bottom-0 block w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
           </a>
-          <a href="#skills" className="text-gray-300 hover:text-white inline-flex items-center">
-          <ChartBarIcon className="h-5 w-5 text-gray-300" />
+          <a href="#skills" className="relative text-gray-300 hover:text-white inline-flex items-center group">
+            <ChartBarIcon className="h-5 w-5 mr-1" />
             Skills
+            <span className="absolute left-0 bottom-0 block w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
           </a>
-          <a href="#training" className="text-gray-300 hover:text-white inline-flex items-center">
+          <a href="#training" className="relative text-gray-300 hover:text-white inline-flex items-center group">
             <AcademicCapIcon className="h-5 w-5 mr-1" />
             Training
+            <span className="absolute left-0 bottom-0 block w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
           </a>
-          <a href="#projects" className="text-gray-300 hover:text-white inline-flex items-center">
+          <a href="#projects" className="relative text-gray-300 hover:text-white inline-flex items-center group">
             <BriefcaseIcon className="h-5 w-5 mr-1" />
             Projects
+            <span className="absolute left-0 bottom-0 block w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
           </a>
-          <a href="#contact" className="text-gray-300 hover:text-white inline-flex items-center">
+          <a href="#contact" className="relative text-gray-300 hover:text-white inline-flex items-center group">
             <EnvelopeIcon className="h-5 w-5 mr-1" />
             Contact
+            <span className="absolute left-0 bottom-0 block w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
           </a>
         </div>
       </div>
